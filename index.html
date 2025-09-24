@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="site.title">Chalets de Luxe à Val-d'Isère | Collection ORCA, ORSO & LES OURS</title>
+    <meta name="description" data-translate="site.description" content="Découvrez notre collection exclusive de chalets de luxe à Val-d'Isère. ORCA, ORSO et LES OURS offrent un mélange inégalé de confort et de sophistication au cœur des Alpes françaises.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h1 class="nav__title" data-translate="nav.brand">Chalets Val-d'Isère</h1>
+            </div>
+            <div class="nav__menu">
+                <a href="#home" class="nav__link" data-translate="nav.home">Accueil</a>
+                <a href="#chalets" class="nav__link" data-translate="nav.chalets">Nos Chalets</a>
+                <a href="#contact" class="nav__link contact-btn" data-translate="nav.contact">Contact</a>
+                <div class="language-buttons">
+                    <button class="language-flag-btn" data-lang="fr">
+                        <span class="flag">🇫🇷</span>
+                        <span class="code">FR</span>
+                    </button>
+                    <button class="language-flag-btn active" data-lang="en">
+                        <span class="flag">🇬🇧</span>
+                        <span class="code">EN</span>
+                    </button>
+                    <button class="language-flag-btn" data-lang="pt">
+                        <span class="flag">🇵🇹</span>
+                        <span class="code">PT</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__content">
+                <h1 class="hero__title" data-translate="hero.title">Collection Exclusive de Chalets de Luxe</h1>
+                <p class="hero__subtitle" data-translate="hero.subtitle">Val-d'Isère • Alpes Françaises</p>
+                <p class="hero__description" data-translate="hero.description">
+                    Découvrez ORCA, ORSO et LES OURS, trois chalets d'exception offrant des vues à couper le souffle sur les sommets alpins
+                </p>
+                <button class="btn btn--primary hero__cta contact-btn" data-translate="hero.cta">Demande de Réservation</button>
+            </div>
+            <div class="hero__image"></div>
+        </section>
+
+
+        <!-- Chalets Grid -->
+        <section class="chalets" id="chalets">
+            <div class="container">
+                <div class="chalets__grid">
+                    <!-- ORCA Chalet -->
+                    <div class="chalet-card" data-chalet="ORCA">
+                        <div class="chalet-card__image" data-photo="ORCA"></div>
+                        <div class="chalet-card__content">
+                            <h3 class="chalet-card__name">ORCA</h3>
+                            <div class="chalet-card__details">
+                                <span class="chalet-card__capacity">14 <span data-translate="chalet.guests">personnes</span></span>
+                                <span class="chalet-card__rooms">5 <span data-translate="chalet.bedrooms">chambres</span></span>
+                                <span class="chalet-card__size">420m²</span>
+                            </div>
+                            <p class="chalet-card__description" data-translate="orca.short">
+                                Des vues à couper le souffle avec terrasse brasero et équipements luxueux
+                            </p>
+                            <button class="btn btn--outline chalet-card__btn" data-translate="chalet.discover">Découvrir</button>
+                        </div>
+                    </div>
+
+                    <!-- ORSO Chalet -->
+                    <div class="chalet-card" data-chalet="ORSO">
+                        <div class="chalet-card__image" data-photo="ORSO"></div>
+                        <div class="chalet-card__content">
+                            <h3 class="chalet-card__name">ORSO</h3>
+                            <div class="chalet-card__details">
+                                <span class="chalet-card__capacity">13 <span data-translate="chalet.guests">personnes</span></span>
+                                <span class="chalet-card__rooms">5 <span data-translate="chalet.bedrooms">chambres</span></span>
+                                <span class="chalet-card__size">520m²</span>
+                            </div>
+                            <p class="chalet-card__description" data-translate="orso.short">
+                                Bain norvégien extérieur et future salle de cinéma, parfait pour les familles
+                            </p>
+                            <button class="btn btn--outline chalet-card__btn" data-translate="chalet.discover">Découvrir</button>
+                        </div>
+                    </div>
+
+                    <!-- LES OURS Chalet -->
+                    <div class="chalet-card" data-chalet="LES_OURS">
+                        <div class="chalet-card__image" data-photo="LES_OURS"></div>
+                        <div class="chalet-card__content">
+                            <h3 class="chalet-card__name">LES OURS</h3>
+                            <div class="chalet-card__details">
+                                <span class="chalet-card__capacity">27 <span data-translate="chalet.guests">personnes</span></span>
+                                <span class="chalet-card__rooms">10 <span data-translate="chalet.bedrooms">chambres</span></span>
+                                <span class="chalet-card__size">940m²</span>
+                            </div>
+                            <p class="chalet-card__description" data-translate="les_ours.short">
+                                L'union d'ORCA et ORSO pour des événements d'exception
+                            </p>
+                            <button class="btn btn--outline chalet-card__btn" data-translate="chalet.discover">Découvrir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection Description -->
+        <section class="collection">
+            <div class="container">
+                <div class="collection__content">
+                    <h2 class="collection__title" data-translate="collection.title">Notre Collection</h2>
+                    <p class="collection__description" data-translate="collection.description">
+                        Notre collection est composée de 3 chalets : ORCA, ORSO et LES OURS qui offrent un mélange inégalé de confort et de sophistication. Les immenses ensembles vitrés qui composent les séjours de chaque chalet dévoilent des vues à couper le souffle, vous plongeant au milieu des cimes et vous offrant toute la pureté et la beauté de la montagne à l'état brut.
+                    </p>
+                    <p class="collection__experience" data-translate="collection.experience">
+                        Une expérience unique, paisible et inoubliable au cœur des Alpes françaises.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section class="services">
+            <div class="container">
+                <h2 class="services__title" data-translate="services.title">Services de Conciergerie</h2>
+                <p class="services__description" data-translate="services.description">
+                    Nos clients bénéficient d'un service de Conciergerie dédié dès le moment de la réservation. Il peut s'agir de transferts en taxi ou hélicoptère, de réservations au restaurant ou d'expériences plus insolites.
+                </p>
+                <div class="services__grid">
+                    <div class="service-card">
+                        <div class="service-card__icon">🏠</div>
+                        <h3 class="service-card__title" data-translate="services.butler.title">Majordome & Chef</h3>
+                        <p class="service-card__description" data-translate="services.butler.description">Service personnalisé 7j/7 avec petit-déjeuner, tea-time et dîner</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">🚗</div>
+                        <h3 class="service-card__title" data-translate="services.driver.title">Chauffeur Privé</h3>
+                        <p class="service-card__description" data-translate="services.driver.description">12h/jour avec véhicules haut de gamme</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">✨</div>
+                        <h3 class="service-card__title" data-translate="services.concierge.title">Conciergerie</h3>
+                        <p class="service-card__description" data-translate="services.concierge.description">Transferts, réservations et expériences sur-mesure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chalet Detail Pages (Hidden by default) -->
+    <div class="chalet-detail hidden" id="chalet-ORCA">
+        <header class="chalet-detail__header">
+            <div class="container">
+                <button class="btn btn--outline back-btn">← <span data-translate="chalet.back">Retour</span></button>
+                <h1 class="chalet-detail__title">ORCA</h1>
+            </div>
+        </header>
+        
+        <!-- Photo Gallery Slider -->
+        <div class="gallery-container">
+            <div class="gallery-slider" id="gallery-ORCA">
+                <div class="gallery-track">
+                    <!-- Images will be populated by JavaScript -->
+                </div>
+                <button class="gallery-btn gallery-btn--prev" aria-label="Photo précédente">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15,18 9,12 15,6"></polyline>
+                    </svg>
+                </button>
+                <button class="gallery-btn gallery-btn--next" aria-label="Photo suivante">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9,18 15,12 9,6"></polyline>
+                    </svg>
+                </button>
+                <div class="gallery-indicators">
+                    <!-- Indicators will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="chalet-detail__content">
+                <div class="chalet-detail__info">
+                    <div class="chalet-specs">
+                        <div class="spec-item">
+                            <span class="spec-value">14</span>
+                            <span class="spec-label" data-translate="chalet.guests">Personnes</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-value">5</span>
+                            <span class="spec-label" data-translate="chalet.bedrooms">Chambres</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-value">520</span>
+                            <span class="spec-label">m²</span>
+                        </div>
+                    </div>
+                    <div class="chalet-detail__description" data-translate="orca.description">
+                        Des vues époustouflantes sur la majesté des sommets depuis les immenses baies vitrées du salon, des soirées intimistes au coin du feu dans les canapés moelleux ou sur la terrasse face au brasero et aux cimes enneigées... Voici un aperçu des délices que la résidence ORCA vous réserve.
+
+ORCA accueille avec élégance 14 personnes, avec 4 chambres dotées de lits king-size somptueux et une cinquième chambre comprenant 2 lits doubles et 2 lits superposés. Chaque chambre bénéficie d'une salle de bains privative raffinée.
+
+La demeure dispose de sa propre salle de sport entièrement équipée et d'un spa complet (piscine intérieure, jacuzzi, hammam, sauna).
+
+Les hôtes peuvent s'adonner aux plaisirs d'un espace divertissement comprenant billard, jeux vidéo, home cinéma et d'un espace détente en mezzanine.
+                    </div>
+                    <button class="btn btn--primary contact-btn" data-translate="chalet.book">Demande de Réservation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chalet-detail hidden" id="chalet-ORSO">
+        <header class="chalet-detail__header">
+            <div class="container">
+                <button class="btn btn--outline back-btn">← <span data-translate="chalet.back">Retour</span></button>
+                <h1 class="chalet-detail__title">ORSO</h1>
+            </div>
+        </header>
+        
+        <!-- Photo Gallery Slider -->
+        <div class="gallery-container">
+            <div class="gallery-slider" id="gallery-ORSO">
+                <div class="gallery-track">
+                    <!-- Images will be populated by JavaScript -->
+                </div>
+                <button class="gallery-btn gallery-btn--prev" aria-label="Photo précédente">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15,18 9,12 15,6"></polyline>
+                    </svg>
+                </button>
+                <button class="gallery-btn gallery-btn--next" aria-label="Photo suivante">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9,18 15,12 9,6"></polyline>
+                    </svg>
+                </button>
+                <div class="gallery-indicators">
+                    <!-- Indicators will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="chalet-detail__content">
+                <div class="chalet-detail__info">
+                    <div class="chalet-specs">
+                        <div class="spec-item">
+                            <span class="spec-value">13</span>
+                            <span class="spec-label" data-translate="chalet.guests">Personnes</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-value">5</span>
+                            <span class="spec-label" data-translate="chalet.bedrooms">Chambres</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-value">520</span>
+                            <span class="spec-label">m²</span>
+                        </div>
+                    </div>
+                    <div class="chalet-detail__description" data-translate="orso.description">
+                        ORSO déploie ses 520 mètres carrés pour accueillir avec grâce 13 personnes au sein de 5 chambres aux salles de bain privatives et lits King-Size somptueux. L'une d'entre elles, pensée pour les plus jeunes, dispose d'un deuxième lit double et d'un lit superposé, permettant à cinq enfants de partager un séjour enchanteur dans un écrin parfaitement adapté.
+
+Le salon grandiose offre des panoramas à couper le souffle grâce aux spectaculaires verrières. Les intérieurs d'un raffinement exquis et le service sur mesure garantissent une retraite inoubliable au cœur du sanctuaire alpin.
+
+ORSO dispose de sa propre salle de sport entièrement équipée, d'un spa complet (piscine intérieure, bain à remous, hammam et sauna) et d'un espace de divertissement en mezzanine.
+
+Le privilège exclusif : un bain norvégien sur la terrasse extérieure avec vue imprenable sur les montagnes enneigées !
+
+Nouveauté pour la saison prochaine : une authentique salle de cinéma privée !
+                    </div>
+                    <button class="btn btn--primary contact-btn" data-translate="chalet.book">Demande de Réservation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chalet-detail hidden" id="chalet-LES_OURS">
+        <header class="chalet-detail__header">
+            <div class="container">
+                <button class="btn btn--outline back-btn">← <span data-translate="chalet.back">Retour</span></button>
+                <h1 class="chalet-detail__title">LES OURS</h1>
+            </div>
+        </header>
+        
+        <!-- Photo Gallery Slider -->
+        <div class="gallery-container">
+            <div class="gallery-slider" id="gallery-LES_OURS">
+                <div class="gallery-track">
+                    <!-- Images will be populated by JavaScript -->
+                </div>
+                <button class="gallery-btn gallery-btn--prev" aria-label="Photo précédente">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15,18 9,12 15,6"></polyline>
+                    </svg>
+                </button>
+                <button class="gallery-btn gallery-btn--next" aria-label="Photo suivante">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9,18 15,12 9,6"></polyline>
+                    </svg>
+                </button>
+                <div class="gallery-indicators">
+                    <!-- Indicators will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="chalet-detail__content">
+                <div class="chalet-detail__info">
+                    <div class="chalet-specs">
+                        <div class="spec-item">
+                            <span class="spec-value">27</span>
+                            <span class="spec-label" data-translate="chalet.guests">Personnes</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-value">10</span>
+                            <span class="spec-label" data-translate="chalet.bedrooms">Chambres</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-value">1000</span>
+                            <span class="spec-label">m²</span>
+                        </div>
+                    </div>
+                    <div class="chalet-detail__description" data-translate="les_ours.description">
+                        LES OURS est une demeure d\'exception de 1000 m² pouvant accueillir jusqu'à 27 personnes pour partager un séjour mémorable en famille ou entre amis de prestige. Cette résidence d\'exception naît de l'union harmonieuse de nos deux superbes chalets ORCA & ORSO.
+
+Le Château LES OURS se compose de 10 chambres d'exception. 8 chambres disposent d'un lit King-Size raffiné et d'une salle de bains privative. Les chambres dédiées aux enfants comprennent 2 lits doubles et 2 lits superposés pour l'une, et un lit king size, un lit double et un lit superposé pour l'autre. La demeure abrite également deux salles de sport entièrement équipées, deux spas complets et de multiples espaces de divertissement.
+
+Sans oublier une magnifique salle de cinéma privée avec sièges premium ! La nouveauté exceptionnelle de la saison prochaine.
+
+Les majestueuses verrières révèlent des panoramas saisissants, vous transportant au cœur des cimes pour une expérience unique au sanctuaire des Alpes françaises.
+                    </div>
+                    <button class="btn btn--primary contact-btn" data-translate="chalet.book">Demande de Réservation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal hidden" id="contactModal">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h2 class="modal__title" data-translate="contact.title">Demande de Réservation</h2>
+                <button class="modal__close">&times;</button>
+            </div>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/mblzjnyw" method="POST">
+                <div class="form-group">
+                    <label class="form-label" data-translate="contact.name">Nom complet</label>
+                    <input type="text" class="form-control" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" data-translate="contact.email">Email</label>
+                    <input type="email" class="form-control" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" data-translate="contact.phone">Téléphone</label>
+                    <input type="tel" class="form-control" name="phone" required>
+                </div>
+                <div class="form-group form-group--split">
+                    <div>
+                        <label class="form-label" data-translate="contact.checkin">Date d'arrivée</label>
+                        <input type="date" class="form-control" name="checkin" required>
+                    </div>
+                    <div>
+                        <label class="form-label" data-translate="contact.checkout">Date de départ</label>
+                        <input type="date" class="form-control" name="checkout" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" data-translate="contact.message">Message</label>
+                    <textarea class="form-control" name="message" rows="4" placeholder="Indiquez le chalet souhaité et toute information complémentaire..."></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width" data-translate="contact.send">Envoyer la demande</button>
+            </form>
+            <div class="contact-success hidden" id="contactSuccess">
+                <h3 data-translate="contact.success.title">Demande envoyée !</h3>
+                <p data-translate="contact.success.message">Nous vous contacterons dans les plus brefs délais.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 data-translate="footer.title">Chalets Val-d'Isère</h3>
+                    <p data-translate="footer.subtitle">Collection ORCA • ORSO • LES OURS</p>
+                    <p>Val-d'Isère, France</p>
+                </div>
+                <div class="footer__contact">
+                    <button class="btn btn--primary contact-btn" data-translate="footer.contact">Nous Contacter</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
