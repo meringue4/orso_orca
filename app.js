@@ -72,7 +72,16 @@ const chaletPhotos = {
 // Translation data
 const translations = {
   fr: {
-    'site.title': 'Chalets d\'Exception à Val-d\'Isère | Collection Prestige ORCA, ORSO & LES OURS',
+    'thankyou.title': 'Demande Envoyée avec Succès !',
+'thankyou.description': 'Votre demande de réservation a été envoyée avec succès. Notre équipe vous contactera dans les plus brefs délais.',
+'thankyou.subtitle': 'Votre demande de réservation a été transmise à notre équipe.',
+'thankyou.message1': 'Notre équipe de conciergerie vous contactera dans les plus brefs délais pour finaliser votre réservation et organiser votre séjour d\'exception.',
+'thankyou.message2': 'En attendant, n\'hésitez pas à consulter nos services de conciergerie premium pour enrichir votre expérience.',
+'thankyou.back_home': 'Retour à l\'Accueil',
+'thankyou.view_chalets': 'Découvrir nos Chalets',
+'thankyou.contact_title': 'Besoin d\'une assistance immédiate ?',
+'thankyou.contact_message': 'Notre équipe est disponible pour toute question urgente.',
+'site.title': 'Chalets d\'Exception à Val-d\'Isère | Collection Prestige ORCA, ORSO & LES OURS',
 'site.description': 'Plongez dans l\'art de vivre alpin avec notre collection exclusive de chalets d\'exception à Val-d\'Isère. ORCA, ORSO et LES OURS incarnent l\'harmonie parfaite entre raffinement contemporain et majesté alpine au cœur des sommets français.',
 'nav.brand': 'Chalets d\'Exception Val-d\'Isère',
 'nav.home': 'Accueil',
@@ -141,7 +150,16 @@ Les majestueuses verrières révèlent des panoramas saisissants, vous transport
 },
 
   en: {
-    'site.title': 'Luxury Chalets in Val-d\'Isère | ORCA, ORSO & LES OURS Prestige Collection',
+    'thankyou.title': 'Request Successfully Submitted!',
+'thankyou.description': 'Your reservation request has been successfully sent. Our team will contact you as soon as possible.',
+'thankyou.subtitle': 'Your reservation request has been sent to our team.',
+'thankyou.message1': 'Our concierge team will contact you as soon as possible to finalize your reservation and organize your exceptional stay.',
+'thankyou.message2': 'In the meantime, feel free to explore our premium concierge services to enhance your experience.',
+'thankyou.back_home': 'Back to Home',
+'thankyou.view_chalets': 'Discover our Chalets',
+'thankyou.contact_title': 'Need immediate assistance?',
+'thankyou.contact_message': 'Our team is available for any urgent questions.',
+'site.title': 'Luxury Chalets in Val-d\'Isère | ORCA, ORSO & LES OURS Prestige Collection',
 'site.description': 'Immerse yourself in the alpine art of living with our exclusive collection of luxury chalets in Val-d\'Isère. ORCA, ORSO and LES OURS embody the perfect harmony between contemporary refinement and alpine majesty in the heart of the French peaks.',
 'nav.brand': 'Val-d\'Isère Luxury Chalets',
 'nav.home': 'Home',
@@ -210,7 +228,16 @@ The majestic glass walls reveal striking panoramas, transporting you to the hear
 
   },
   pt: {
-    'site.title': 'Chalés de Luxo em Val-d\'Isère | Coleção Prestígio ORCA, ORSO & LES OURS',
+    'thankyou.title': 'Solicitação Enviada com Sucesso!',
+'thankyou.description': 'Sua solicitação de reserva foi enviada com sucesso. Nossa equipe entrará em contato o mais breve possível.',
+'thankyou.subtitle': 'Sua solicitação de reserva foi enviada para nossa equipe.',
+'thankyou.message1': 'Nossa equipe de concierge entrará em contato o mais breve possível para finalizar sua reserva e organizar sua estadia excepcional.',
+'thankyou.message2': 'Enquanto isso, sinta-se à vontade para explorar nossos serviços premium de concierge para enriquecer sua experiência.',
+'thankyou.back_home': 'Voltar ao Início',
+'thankyou.view_chalets': 'Descobrir nossos Chalés',
+'thankyou.contact_title': 'Precisa de assistência imediata?',
+'thankyou.contact_message': 'Nossa equipe está disponível para qualquer pergunta urgente.',
+'site.title': 'Chalés de Luxo em Val-d\'Isère | Coleção Prestígio ORCA, ORSO & LES OURS',
 'site.description': 'Mergulhe na arte de viver alpina com nossa coleção exclusiva de chalés de luxo em Val-d\'Isère. ORCA, ORSO e LES OURS são a perfeita harmonia entre refinamento contemporâneo e majestade alpina no coração dos picos franceses.',
 'nav.brand': 'Chalés de Luxo Val-d\'Isère',
 'nav.home': 'Início',
@@ -778,14 +805,10 @@ function validateForm(formData) {
 }
 
 function showSuccessMessage() {
-  contactForm.classList.add('hidden');
-  contactSuccess.classList.remove('hidden');
-  
-  // Auto close after 3 seconds
-  setTimeout(() => {
-    closeModal();
-  }, 3000);
+    // Redirection immédiate vers la page de remerciement
+    window.location.href = 'thank-you.html';
 }
+
 
 // Scroll effects
 function initializeScrollEffects() {

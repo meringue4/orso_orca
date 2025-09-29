@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="thankyou.title">Demande Envoyée - Chalets Val-d'Isère</title>
+    <meta name="description" data-translate="thankyou.description" content="Votre demande de réservation a été envoyée avec succès. Notre équipe vous contactera dans les plus brefs délais.">
+
+    <!-- Preconnect for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://valdisereluxurychalet.com/thank-you.html">
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="Chalets de luxe Val-d'Isère, Réservation confirmée, Luxury chalets confirmation, Thank you page">
+</head>
+<body>
+    <!-- Header - Identique au site principal -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="navbrand">
+                <h1 class="navtitle" data-translate="nav.brand">Chalets d'Exception Val-d'Isère</h1>
+            </div>
+            <div class="navmenu">
+                <a href="index.html#home" class="navlink" data-translate="nav.home">Accueil</a>
+                <a href="index.html#chalets" class="navlink" data-translate="nav.chalets">Nos Chalets</a>
+                <a href="index.html#contact" class="navlink" data-translate="nav.contact">Contact</a>
+            </div>
+            <div class="language-buttons">
+                <button class="language-flag-btn" data-lang="fr">
+                    <span class="flag">🇫🇷</span>
+                    <span class="code">FR</span>
+                </button>
+                <button class="language-flag-btn active" data-lang="en">
+                    <span class="flag">🇬🇧</span>
+                    <span class="code">EN</span>
+                </button>
+                <button class="language-flag-btn" data-lang="pt">
+                    <span class="flag">🇧🇷</span>
+                    <span class="code">PT</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Thank You Content -->
+    <main class="thank-you-main">
+        <div class="container">
+            <div class="thank-you-content">
+                <!-- Success Icon -->
+                <div class="thank-you-icon">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22,4 12,14.01 9,11.01"></polyline>
+                    </svg>
+                </div>
+
+                <!-- Thank You Message -->
+                <h1 class="thank-you-title" data-translate="thankyou.title">Demande Envoyée avec Succès !</h1>
+
+                <p class="thank-you-subtitle" data-translate="thankyou.subtitle">
+                    Votre demande de réservation a été transmise à notre équipe.
+                </p>
+
+                <div class="thank-you-details">
+                    <p data-translate="thankyou.message1">
+                        Notre équipe de conciergerie vous contactera dans les plus brefs délais pour finaliser votre réservation et organiser votre séjour d'exception.
+                    </p>
+
+                    <p data-translate="thankyou.message2">
+                        En attendant, n'hésitez pas à consulter nos services de conciergerie premium pour enrichir votre expérience.
+                    </p>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="thank-you-actions">
+                    <a href="index.html" class="btn btn--primary" data-translate="thankyou.back_home">
+                        Retour à l'Accueil
+                    </a>
+                    <a href="index.html#chalets" class="btn btn--outline" data-translate="thankyou.view_chalets">
+                        Découvrir nos Chalets
+                    </a>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="thank-you-contact">
+                    <h3 data-translate="thankyou.contact_title">Besoin d'une assistance immédiate ?</h3>
+                    <p data-translate="thankyou.contact_message">
+                        Notre équipe est disponible pour toute question urgente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer - Identique au site principal -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footercontent">
+                <div class="footerinfo">
+                    <h3 data-translate="footer.title">Chalets d'Exception Val-d'Isère</h3>
+                    <p data-translate="footer.subtitle">Collection Prestige ORCA • ORSO • LES OURS</p>
+                    <p>Val-d'Isère, France</p>
+                </div>
+                <div class="footercontact">
+                    <a href="index.html#contact" class="btn btn--primary contact-btn" data-translate="footer.contact">Nous Contacter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript - Réutilise le même système que le site principal -->
+    <script src="app.js"></script>
+    <script>
+        // Auto-redirect vers la page d'accueil après 30 secondes
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 30000);
+    </script>
+</body>
+</html>
