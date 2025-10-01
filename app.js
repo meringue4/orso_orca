@@ -120,7 +120,7 @@ Nouveauté pour la saison prochaine : une authentique salle de cinéma privée !
 'les_ours.short': 'L\'union prestigieuse d\'ORCA et ORSO pour des événements d\'exception',
 'les_ours.description': `LES OURS est une demeure d\'exception de 1000 m² pouvant accueillir jusqu'à 27 personnes pour partager un séjour mémorable en famille ou entre amis de prestige. Cette résidence d\'exception naît de l'union harmonieuse de nos deux superbes chalets ORCA & ORSO.
 
-Le Château LES OURS se compose de 10 chambres d'exception. 8 chambres disposent d'un lit King-Size raffiné et d'une salle de bains privative. Les chambres dédiées aux enfants comprennent 2 lits doubles et 2 lits superposés pour l'une, et un lit king size, un lit double et un lit superposé pour l'autre. La demeure abrite également deux salles de sport entièrement équipées, deux spas complets et de multiples espaces de divertissement.
+Le chalet LES OURS se compose de 10 chambres d'exception. 8 chambres disposent d'un lit King-Size raffiné et d'une salle de bains privative. Les chambres dédiées aux enfants comprennent 2 lits doubles et 2 lits superposés pour l'une, et un lit king size, un lit double et un lit superposé pour l'autre. La demeure abrite également deux salles de sport entièrement équipées, deux spas complets et de multiples espaces de divertissement.
 
 Sans oublier une magnifique salle de cinéma privée avec sièges premium ! La nouveauté exceptionnelle de la saison prochaine.
 
@@ -198,7 +198,7 @@ New for next season: an authentic private cinema room!`,
 'les_ours.short': 'The prestigious union of ORCA and ORSO for exceptional events',
 'les_ours.description': `LES OURS is an exceptional 1000 m² chalet that can accommodate up to 27 guests to share a memorable stay with prestigious family or friends. This exceptional chalet is born from the harmonious union of our two superb chalets ORCA & ORSO.
 
-Château LES OURS comprises 10 exceptional bedrooms. 8 bedrooms feature refined King-Size beds and private bathrooms. The children's dedicated bedrooms include 2 double beds and 2 bunk beds for one, and a king size bed, a double bed and a bunk bed for the other. The chalet also houses two fully equipped gyms, two complete spas and multiple entertainment areas.
+Chalet LES OURS comprises 10 exceptional bedrooms. 8 bedrooms feature refined King-Size beds and private bathrooms. The children's dedicated bedrooms include 2 double beds and 2 bunk beds for one, and a king size bed, a double bed and a bunk bed for the other. The chalet also houses two fully equipped gyms, two complete spas and multiple entertainment areas.
 
 Not to mention a magnificent private cinema room with premium seating! The exceptional novelty of next season.
 
@@ -276,7 +276,7 @@ Novidade para a próxima temporada: uma autêntica sala de cinema privada!`,
 'les_ours.short': 'A união prestigiosa de ORCA e ORSO para eventos excepcionais',
 'les_ours.description': `LES OURS é uma residência excepcional de 1000 m² que pode acomodar até 27 hóspedes para compartilhar uma estadia memorável com familiares ou amigos de prestígio. Esta residência de exceção nasce da união harmoniosa de nossos dois magníficos chalés ORCA & ORSO.
 
-Château LES OURS é composto por 10 quartos excepcionais. 8 quartos contam com camas king-size refinadas e banheiros privativos. Os quartos infantis incluem 2 camas de casal e 2 beliches em um, e uma cama king-size, uma cama de casal e um beliche no outro. A residência também abriga duas academias completas, dois spas e múltiplas áreas de entretenimento.
+Chalé LES OURS é composto por 10 quartos excepcionais. 8 quartos contam com camas king-size refinadas e banheiros privativos. Os quartos infantis incluem 2 camas de casal e 2 beliches em um, e uma cama king-size, uma cama de casal e um beliche no outro. A residência também abriga duas academias completas, dois spas e múltiplas áreas de entretenimento.
 
 Sem contar uma magnífica sala de cinema privada com assentos premium! A novidade excepcional da próxima temporada.
 
